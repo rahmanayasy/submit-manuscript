@@ -1,0 +1,183 @@
+<mxfile host="app.diagrams.net" modified="2020-10-11T08:59:03.242Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="U2vqs0fg9ZjQbFmFQ-MV" version="13.7.9" type="github">
+  <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
+    <mxGraphModel dx="1310" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="77e6c97f196da883-1" value="Paper Protection (1: From Public Access)" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+          <mxGeometry x="70" y="40" width="300" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-2" value="File System" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry y="20" width="300" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-2" source="IMko0UA6OWlLNupEnCfx-5" target="IMko0UA6OWlLNupEnCfx-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80.05882352941171" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-5" value="Start: Manually" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="20" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-2" source="IMko0UA6OWlLNupEnCfx-15" target="IMko0UA6OWlLNupEnCfx-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-28" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IMko0UA6OWlLNupEnCfx-26">
+          <mxGeometry x="-0.451" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-15" value="&lt;span&gt;check if paper assets folder (parent) exist&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="25" y="100" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-2" source="IMko0UA6OWlLNupEnCfx-25" target="IMko0UA6OWlLNupEnCfx-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-29" value="are .htaccess and index.html exist?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="20" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-14" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="77e6c97f196da883-2" source="IMko0UA6OWlLNupEnCfx-8" target="IMko0UA6OWlLNupEnCfx-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80.05882352941171" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-2" source="IMko0UA6OWlLNupEnCfx-19" target="IMko0UA6OWlLNupEnCfx-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-35" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-2" source="IMko0UA6OWlLNupEnCfx-8" target="IMko0UA6OWlLNupEnCfx-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-19" value="Create &lt;br&gt;index.html 404 file not found inside parent folder" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="30" y="340" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-8" value="has child folder?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="40" y="430" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-17" value="&lt;span&gt;Create &lt;br&gt;.htaccess&amp;nbsp;file inside parent folder&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="25" y="530" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-36" value="Child folder become parent, and etc" style="whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="160" y="535" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-33" value="Finish" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="165" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-25" value="Create assets folder &lt;br&gt;(parent)" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.folder;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="200" y="121" width="50" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-30" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-2" source="IMko0UA6OWlLNupEnCfx-15" target="IMko0UA6OWlLNupEnCfx-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-32" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="77e6c97f196da883-2" source="IMko0UA6OWlLNupEnCfx-29" target="IMko0UA6OWlLNupEnCfx-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-34" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-2" source="IMko0UA6OWlLNupEnCfx-29" target="IMko0UA6OWlLNupEnCfx-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-2" source="IMko0UA6OWlLNupEnCfx-17" target="IMko0UA6OWlLNupEnCfx-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-2" source="IMko0UA6OWlLNupEnCfx-36" target="IMko0UA6OWlLNupEnCfx-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="630" />
+              <mxPoint x="10" y="630" />
+              <mxPoint x="10" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-2" value="Paper Protection (2: From Internal Access e.g. Reviewers)" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+          <mxGeometry x="380" y="40" width="320" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-4" value="Controller" style="swimlane;html=1;startSize=20;" vertex="1" parent="IMko0UA6OWlLNupEnCfx-2">
+          <mxGeometry y="20" width="320" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="IMko0UA6OWlLNupEnCfx-4" source="IMko0UA6OWlLNupEnCfx-39" target="IMko0UA6OWlLNupEnCfx-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-49" value="while index &amp;lt; page numbers" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="IMko0UA6OWlLNupEnCfx-4">
+          <mxGeometry x="15" y="310" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-42" value="is paper has pdf extension?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="IMko0UA6OWlLNupEnCfx-4">
+          <mxGeometry x="35" y="200" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-40" value="papers to be reviewed" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" vertex="1" parent="IMko0UA6OWlLNupEnCfx-4">
+          <mxGeometry x="43" y="110" width="94" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-39" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="IMko0UA6OWlLNupEnCfx-4">
+          <mxGeometry x="30" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IMko0UA6OWlLNupEnCfx-4" source="IMko0UA6OWlLNupEnCfx-40" target="IMko0UA6OWlLNupEnCfx-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-47" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IMko0UA6OWlLNupEnCfx-4" source="IMko0UA6OWlLNupEnCfx-42" target="IMko0UA6OWlLNupEnCfx-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-50" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IMko0UA6OWlLNupEnCfx-4" source="IMko0UA6OWlLNupEnCfx-42" target="IMko0UA6OWlLNupEnCfx-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-51" value="check landscape/potrait" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="IMko0UA6OWlLNupEnCfx-4">
+          <mxGeometry x="30" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-57" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="IMko0UA6OWlLNupEnCfx-4" source="IMko0UA6OWlLNupEnCfx-55" target="IMko0UA6OWlLNupEnCfx-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-55" value="get reviewers&lt;br&gt;name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="IMko0UA6OWlLNupEnCfx-4">
+          <mxGeometry x="30" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-53" value="Write watermark with reviewers name&lt;br&gt;index page ++" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="IMko0UA6OWlLNupEnCfx-4">
+          <mxGeometry x="30" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-46" value="Convert file to pdf&lt;br&gt;extension using API and make a copy with _converted filename" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="IMko0UA6OWlLNupEnCfx-4">
+          <mxGeometry x="190" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-52" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IMko0UA6OWlLNupEnCfx-4" source="IMko0UA6OWlLNupEnCfx-49" target="IMko0UA6OWlLNupEnCfx-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IMko0UA6OWlLNupEnCfx-4" source="IMko0UA6OWlLNupEnCfx-51" target="IMko0UA6OWlLNupEnCfx-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="IMko0UA6OWlLNupEnCfx-4" source="IMko0UA6OWlLNupEnCfx-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240.0588235294117" y="680" as="sourcePoint" />
+            <mxPoint x="80" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="700" />
+              <mxPoint x="10" y="700" />
+              <mxPoint x="10" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-62" value="Finish" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="IMko0UA6OWlLNupEnCfx-4">
+          <mxGeometry x="180" y="620" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IMko0UA6OWlLNupEnCfx-4" source="IMko0UA6OWlLNupEnCfx-60" target="IMko0UA6OWlLNupEnCfx-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-64" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="IMko0UA6OWlLNupEnCfx-4" source="IMko0UA6OWlLNupEnCfx-49" target="IMko0UA6OWlLNupEnCfx-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-66" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="IMko0UA6OWlLNupEnCfx-4" source="IMko0UA6OWlLNupEnCfx-65" target="IMko0UA6OWlLNupEnCfx-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-65" value="Set Protection:&lt;br&gt;anti-copy/paste, and password encryption" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="IMko0UA6OWlLNupEnCfx-4">
+          <mxGeometry x="180" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-60" value="encrypted paper&lt;br&gt;&amp;nbsp;file can be downloaded/opened" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="IMko0UA6OWlLNupEnCfx-4">
+          <mxGeometry x="180" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMko0UA6OWlLNupEnCfx-48" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="IMko0UA6OWlLNupEnCfx-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

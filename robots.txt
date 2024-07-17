@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://submit-manuscript.org/sitemapv2.xml
